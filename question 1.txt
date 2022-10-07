@@ -1,0 +1,3 @@
+the problem is the relationship between MonsterFest_MonsterStealth and Monster is (IS-A) which it is more correct if it is (HAS-A) because (IS-A) is not pure relationship, the fast/stealth monster has a defrinet between monster.
+the inheritance relationship does not flixbilty in varies thing,
+so it is hard to maintain the application, it can't add a new child class at runtime so you must to stop the program to add the new monster which is fast and stealth. 
