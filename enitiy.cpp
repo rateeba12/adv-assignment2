@@ -14,7 +14,7 @@ public:
 		this-> x = newX; this-> y = newY;
 	}
 
-	// the render for the player and monster is different
+	// the render for the player and monster is different in some case
 	virtual void render(){
 	    string appearance ="visible";
 	}
