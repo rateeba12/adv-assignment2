@@ -1,19 +1,10 @@
 //MonsterStealth
 #include <iostream>
 using namespace std;
-
 include "monster.cpp"
 
-class monsterfast : monster {
-    void fast(){
-        cout<<"more fast";
-    }
-    void move (){
-        monster::move();
-        fast();
-        
-    }
-    
+class monsterStealth : monster {
+
     	void hardhear(){
 	    monster :: mackeNoise(); //macke the noise hard to hear
 	}
@@ -25,4 +16,4 @@ class monsterfast : monster {
 	
 
 
-}
+};
